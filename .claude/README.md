@@ -232,6 +232,7 @@ The official Anthropic marketplace is **automatically available**:
 | **ananddtyagi** | [ananddtyagi/cc-marketplace](https://github.com/ananddtyagi/cc-marketplace) | Community-driven plugins |
 | **hekmon8** | [hekmon8/awesome-claude-code-plugins](https://github.com/hekmon8/awesome-claude-code-plugins) | Curated best plugins |
 | **wshobson** | [wshobson/commands](https://github.com/wshobson/commands) | Production-ready slash commands |
+| **wshobson** | [wshobson/agents](https://github.com/wshobson/agents) | Specialized Claude Code agents |
 
 ### Creating Your Own Marketplace
 
@@ -519,6 +520,7 @@ Permissions control what Claude Code can do. See the main [README](../README.md)
 | Official Plugins | [github.com/anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
 | Plugin Template | [github.com/ivan-magda/claude-code-plugin-template](https://github.com/ivan-magda/claude-code-plugin-template) |
 | Production Commands | [github.com/wshobson/commands](https://github.com/wshobson/commands) |
+| Production Agents | [github.com/wshobson/agents](https://github.com/wshobson/agents) |
 | Awesome Claude Code Plugins | [github.com/hekmon8/awesome-claude-code-plugins](https://github.com/hekmon8/awesome-claude-code-plugins) |
 | Community Marketplaces | [claudemarketplaces.com](https://claudemarketplaces.com/) |
 
