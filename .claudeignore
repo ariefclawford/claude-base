@@ -1,0 +1,130 @@
+# ============================================
+# Claude Ignore File
+# Files and directories that Claude should NOT read
+# ============================================
+
+# ============================================
+# Environment & Secrets (CRITICAL)
+# ============================================
+.env
+.env.*
+.env.local
+.env.*.local
+*.env
+
+# Secret/credential files
+*secret*
+*credential*
+*password*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Cloud provider credentials
+.ssh/
+.aws/
+.azure/
+.gcp/
+.kube/
+.docker/config.json
+
+# ============================================
+# Claude Local Files (Personal)
+# ============================================
+.claude/settings.local.json
+.claude/CLAUDE.local.md
+.claude/base/registry/cache/
+
+# ============================================
+# Large Directories (Performance)
+# ============================================
+node_modules/
+vendor/
+.git/
+dist/
+build/
+out/
+target/
+.next/
+.nuxt/
+.output/
+.cache/
+.parcel-cache/
+
+# ============================================
+# Large Binary Files
+# ============================================
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.iso
+*.dmg
+
+# Media files (usually large)
+*.mp4
+*.mp3
+*.wav
+*.avi
+*.mov
+*.mkv
+*.flac
+
+# ============================================
+# Database Files
+# ============================================
+*.sqlite
+*.sqlite3
+*.db
+*.mdb
+*.accdb
+
+# ============================================
+# Log Files (Can be very large)
+# ============================================
+*.log
+logs/
+
+# ============================================
+# Cache & Generated
+# ============================================
+.cache/
+.pytest_cache/
+__pycache__/
+*.pyc
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+htmlcov/
+.nyc_output/
+coverage/
+
+# ============================================
+# IDE Directories
+# ============================================
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ============================================
+# Package Lock Files (Usually not needed for context)
+# ============================================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+composer.lock
+Gemfile.lock
+poetry.lock
+Cargo.lock

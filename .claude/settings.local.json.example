@@ -1,0 +1,21 @@
+{
+  "_readme": "Copy to settings.local.json for personal overrides (gitignored)",
+
+  "permissions": {
+    "allow": [
+      "Bash(git push:*)"
+    ],
+    "deny": []
+  },
+
+  "env": {
+    "MY_API_KEY": "your-api-key-here",
+    "DEBUG": "true"
+  },
+
+  "model": "claude-sonnet-4-20250514",
+
+  "enabledPlugins": {
+    "typescript-lsp@official": true
+  }
+}

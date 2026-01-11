@@ -1,0 +1,48 @@
+{
+  "_readme": "Copy the servers you need to .mcp.json",
+
+  "mcpServers": {
+
+    "filesystem": {
+      "_description": "File system access (read/write/search)",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "./"]
+    },
+
+    "fetch": {
+      "_description": "Web fetching capabilities",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-fetch"]
+    },
+
+    "memory": {
+      "_description": "Persistent memory/knowledge graph",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
+    },
+
+    "github": {
+      "_description": "GitHub API integration",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "<your-token>"
+      }
+    },
+
+    "postgres": {
+      "_description": "PostgreSQL database access",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-postgres"],
+      "env": {
+        "POSTGRES_CONNECTION_STRING": "postgresql://user:pass@localhost/db"
+      }
+    },
+
+    "sqlite": {
+      "_description": "SQLite database access",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sqlite", "--db-path", "./data.db"]
+    }
+  }
+}

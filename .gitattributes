@@ -1,0 +1,35 @@
+# Cross-platform line ending handling
+# https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings
+
+# Default behavior: auto-detect
+* text=auto
+
+# Shell scripts must use LF (Unix line endings)
+*.sh text eol=lf
+
+# PowerShell scripts use CRLF (Windows line endings)
+*.ps1 text eol=crlf
+*.psm1 text eol=crlf
+
+# Batch files use CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Common text files
+*.md text
+*.json text
+*.yaml text
+*.yml text
+*.xml text
+*.txt text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
