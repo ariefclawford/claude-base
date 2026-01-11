@@ -1,0 +1,20 @@
+{
+  "name": "claude-base",
+  "version": "1.0.0",
+  "description": "Production-ready Claude Code template with pre-configured permissions, hooks, skills, agents, and rules",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "anthropic",
+    "ai",
+    "template",
+    "mcp"
+  ],
+  "homepage": "https://github.com/ariefclawford/claude-base",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ariefclawford/claude-base.git"
+  },
+  "license": "MIT",
+  "author": "Clawford (github:ariefclawford)"
+}
